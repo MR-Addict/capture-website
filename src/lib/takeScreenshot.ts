@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-import { OptionsType } from "../types";
+import { OptionsType } from "@/types";
 
 export default async function takeScreenshot(url: string, options: OptionsType) {
   const browser = await puppeteer.launch();

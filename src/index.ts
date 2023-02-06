@@ -1,9 +1,11 @@
+import "module-alias/register";
+
 import cors from "cors";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import express, { Request, Response } from "express";
 
-import { validateForm, getOptions, takeScreenshot } from "./lib";
+import { validateForm, getOptions, takeScreenshot } from "@/lib";
 
 dotenv.config();
 

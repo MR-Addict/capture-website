@@ -1,4 +1,4 @@
-import { OptionsType } from "../types";
+import { OptionsType } from "@/types";
 
 export default function getOptions(form: { [key: string]: any }) {
   const options = {
